@@ -1,0 +1,17 @@
+#John Fletcher
+#Group:98
+
+CREATE TABLE Robot
+(RobotID VARCHAR(10) UNIQUE NOT NULL,
+Name VARCHAR(20) NOT NULL,
+Weapon VARCHAR(20) NOT NULL,
+HitPoint INT(2) NOT NULL,
+Wins INT(11) DEFAULT 0
+);
+
+INSERT INTO Robot (RobotID, Name, Weapon,HitPoint)
+VALUES ('1','Megatron','sword','10'),
+('2','BB-8','sarcasm','6'),
+('3','Commander Data','laser gun','8'),
+('4','Terminator','machine gun','9'),
+('5','Roomba','vaccum','5');

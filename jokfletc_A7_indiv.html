@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+			
+<html>
+<head><title>Robot Delivery System</title></head>
+<body>
+
+<form action="jokfletc_A7_indiv.cgi" method="post">
+    <h1>What would you like to have delivered?</h1>
+    <input type="text" name="delivery"/><br>
+    <h2>Delivery Method:</h2>
+    <br><input type="radio" name="delivery_method" value="drone">Flying Drone ($10)
+    <br><input type="radio" name="delivery_method" value="self driving car">Self Driving Car ($20)
+    <br><input type="radio" name="delivery_method" value="giant robot">Giant Robot ($1000)
+    <h2>Add-ons</h2>
+    <br><input type="checkbox" name="addons" value="Express Delivery">Express Delivery (+$30)
+    <br><input type="checkbox" name="addons" value="Mostly Not Broken">Mostly Not Broken (+$20)
+    <br><input type="checkbox" name="addons" value="With a Smile">With a Smile (+$1)
+    <br><input type="submit" value="Confirm Delivery"/>
+</form>
+</body>
+</html>
